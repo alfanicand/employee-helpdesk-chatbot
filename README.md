@@ -12,7 +12,9 @@ pencocokan kata kunci untuk mendeteksi intent pertanyaan.
 
 ## Demo Aplikasi
 
-Tautan aplikasi Streamlit akan ditambahkan setelah proses deployment selesai.
+Aplikasi dapat diakses melalui tautan berikut:
+
+[🔗 Buka Employee Helpdesk Chatbot](https://employee-appdesk-chatbot.streamlit.app/)
 
 ## Fitur Utama
 
@@ -149,40 +151,9 @@ Jawaban    : Pengajuan cuti dilakukan melalui sistem HR dan harus
              memperoleh persetujuan atasan.
 ```
 
-## Menjalankan Proyek Secara Lokal
-
-### 1. Clone repository
-
-```bash
-git clone https https://github.com/USERNAME/employee-helpdesk-chatbot.git
-cd employee-helpdesk-chatbot
-```
-
-Ganti `USERNAME` dengan username GitHub pemilik repository.
-
-### 2. Instal library
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Siapkan database
-
-```bash
-python setup_database.py
-```
-
-### 4. Jalankan aplikasi
-
-```bash
-streamlit run run app.py
-```
-
-Aplikasi akan terbuka melalui browser.
-
 ## Menjalankan Pengujian
 
-```bashbash
+```bash
 python tests/test_chatbot.py
 ```
 
